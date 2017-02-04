@@ -15,6 +15,9 @@
 		AD4D07C01E459409003FDC61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4D07BE1E459409003FDC61 /* LaunchScreen.storyboard */; };
 		AD4D07CB1E459409003FDC61 /* PopUp_MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4D07CA1E459409003FDC61 /* PopUp_MenuTests.m */; };
 		AD4D07D61E459409003FDC61 /* PopUp_MenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4D07D51E459409003FDC61 /* PopUp_MenuUITests.m */; };
+		AD4D08061E459AC9003FDC61 /* KOPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4D08051E459AC9003FDC61 /* KOPopupView.m */; };
+		AD4D08081E45A857003FDC61 /* l1i1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD4D08071E45A857003FDC61 /* l1i1.jpg */; };
+		AD4D080A1E45AA9A003FDC61 /* itunes_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD4D08091E45AA9A003FDC61 /* itunes_icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		AD4D07D11E459409003FDC61 /* PopUp MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PopUp MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4D07D51E459409003FDC61 /* PopUp_MenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopUp_MenuUITests.m; sourceTree = "<group>"; };
 		AD4D07D71E459409003FDC61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4D08041E459AC9003FDC61 /* KOPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPopupView.h; sourceTree = "<group>"; };
+		AD4D08051E459AC9003FDC61 /* KOPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPopupView.m; sourceTree = "<group>"; };
+		AD4D08071E45A857003FDC61 /* l1i1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l1i1.jpg; sourceTree = "<group>"; };
+		AD4D08091E45AA9A003FDC61 /* itunes_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itunes_icon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +108,11 @@
 		AD4D07AF1E459409003FDC61 /* PopUp Menu */ = {
 			isa = PBXGroup;
 			children = (
+				AD4D08031E459ABE003FDC61 /* KOPopupView */,
 				AD4D07B31E459409003FDC61 /* AppDelegate.h */,
 				AD4D07B41E459409003FDC61 /* AppDelegate.m */,
+				AD4D08071E45A857003FDC61 /* l1i1.jpg */,
+				AD4D08091E45AA9A003FDC61 /* itunes_icon.jpg */,
 				AD4D07B61E459409003FDC61 /* ViewController.h */,
 				AD4D07B71E459409003FDC61 /* ViewController.m */,
 				AD4D07B91E459409003FDC61 /* Main.storyboard */,
@@ -138,6 +148,15 @@
 				AD4D07D71E459409003FDC61 /* Info.plist */,
 			);
 			path = "PopUp MenuUITests";
+			sourceTree = "<group>";
+		};
+		AD4D08031E459ABE003FDC61 /* KOPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				AD4D08041E459AC9003FDC61 /* KOPopupView.h */,
+				AD4D08051E459AC9003FDC61 /* KOPopupView.m */,
+			);
+			name = KOPopupView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +267,8 @@
 			files = (
 				AD4D07C01E459409003FDC61 /* LaunchScreen.storyboard in Resources */,
 				AD4D07BD1E459409003FDC61 /* Assets.xcassets in Resources */,
+				AD4D080A1E45AA9A003FDC61 /* itunes_icon.jpg in Resources */,
+				AD4D08081E45A857003FDC61 /* l1i1.jpg in Resources */,
 				AD4D07BB1E459409003FDC61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4D07B81E459409003FDC61 /* ViewController.m in Sources */,
+				AD4D08061E459AC9003FDC61 /* KOPopupView.m in Sources */,
 				AD4D07B51E459409003FDC61 /* AppDelegate.m in Sources */,
 				AD4D07B21E459409003FDC61 /* main.m in Sources */,
 			);
