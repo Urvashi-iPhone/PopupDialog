@@ -31,6 +31,13 @@
     _logoimg.layer.cornerRadius = _logoimg.frame.size.height /2;
     _logoimg.layer.masksToBounds = YES;
     _logoimg.layer.borderWidth = 0;
+    
+     _alertView.layer.masksToBounds = NO;
+    _alertView.layer.cornerRadius = 8; // if you like rounded corners
+    _alertView.layer.shadowColor = [[UIColor blackColor] CGColor];
+    _alertView.layer.shadowOffset = CGSizeMake(2, 2);
+    _alertView.layer.shadowRadius = 5;
+    _alertView.layer.shadowOpacity = 0.8;
 }
 
 
